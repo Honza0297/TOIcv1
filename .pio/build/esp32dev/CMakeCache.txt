@@ -667,11 +667,11 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Git
-FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.28.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.30.1()]
 //Details about finding Perl
 FIND_PACKAGE_MESSAGE_DETAILS_Perl:INTERNAL=[/usr/bin/perl][v5.32.0()]
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/home/jaberan/.platformio/penv/bin/python][v3.9()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/home/jaberan/.platformio/penv/bin/python][v3.8.8()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PERL_EXECUTABLE
