@@ -1,4 +1,4 @@
-# Install script for directory: /var/home/jaberan/.platformio/packages/framework-espidf/components/app_trace
+# Install script for directory: /home/jaberan/.platformio/packages/framework-espidf/components/app_trace
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

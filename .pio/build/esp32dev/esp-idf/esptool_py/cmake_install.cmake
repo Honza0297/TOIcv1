@@ -1,4 +1,4 @@
-# Install script for directory: /var/home/jaberan/.platformio/packages/framework-espidf/components/esptool_py
+# Install script for directory: /home/jaberan/.platformio/packages/framework-espidf/components/esptool_py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

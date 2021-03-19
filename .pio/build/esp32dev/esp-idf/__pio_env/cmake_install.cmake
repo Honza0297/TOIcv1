@@ -1,4 +1,4 @@
-# Install script for directory: /var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/__pio_env
+# Install script for directory: /home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/__pio_env
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

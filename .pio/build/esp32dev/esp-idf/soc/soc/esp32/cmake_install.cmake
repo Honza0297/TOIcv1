@@ -1,4 +1,4 @@
-# Install script for directory: /var/home/jaberan/.platformio/packages/framework-espidf/components/soc/soc/esp32
+# Install script for directory: /home/jaberan/.platformio/packages/framework-espidf/components/soc/soc/esp32
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

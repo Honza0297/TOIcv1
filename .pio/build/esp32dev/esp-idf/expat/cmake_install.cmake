@@ -1,4 +1,4 @@
-# Install script for directory: /var/home/jaberan/.platformio/packages/framework-espidf/components/expat
+# Install script for directory: /home/jaberan/.platformio/packages/framework-espidf/components/expat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

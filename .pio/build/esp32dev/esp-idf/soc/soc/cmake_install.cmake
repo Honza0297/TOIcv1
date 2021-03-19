@@ -1,4 +1,4 @@
-# Install script for directory: /var/home/jaberan/.platformio/packages/framework-espidf/components/soc/soc
+# Install script for directory: /home/jaberan/.platformio/packages/framework-espidf/components/soc/soc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/esp-idf/soc/soc/esp32/cmake_install.cmake")
+  include("/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/esp-idf/soc/soc/esp32/cmake_install.cmake")
 
 endif()
 

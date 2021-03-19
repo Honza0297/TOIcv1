@@ -1,7 +1,7 @@
 The target system is: Generic -  - 
 The host system is: Linux - 5.10.21-200.fc33.x86_64 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc 
+Compiler: /home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc 
 Build flags: -mlongcalls;-Wno-frame-address
 Id flags:  
 
@@ -11,10 +11,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/3.16.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/3.16.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ 
+Compiler: /home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++ 
 Build flags: -mlongcalls;-Wno-frame-address
 Id flags:  
 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/3.16.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/3.16.4/CompilerIdCXX/a.out"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 xtensa-esp32-elf-gcc (crosstool-NG esp-2020r3) 8.4.0
@@ -33,25 +33,25 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp
+Change Dir: /home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/var/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_37857 && [1/2] Building C object CMakeFiles/cmTC_37857.dir/testCCompiler.c.obj
-[2/2] Linking C executable cmTC_37857
+Run Build Command(s):/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_746f7 && [1/2] Building C object CMakeFiles/cmTC_746f7.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_746f7
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp
+Change Dir: /home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/var/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_8c0b8 && [1/2] Building C object CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj
+Run Build Command(s):/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_657d9 && [1/2] Building C object CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj
 Using built-in specs.
-COLLECT_GCC=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc
+COLLECT_GCC=/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc
 Target: xtensa-esp32-elf
 Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
 Thread model: posix
 gcc version 8.4.0 (crosstool-NG esp-2020r3) 
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj' '-c'
- /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/cc1 -quiet -v -iprefix /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/ /var/home/jaberan/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj -Wno-frame-address -version -o /tmp/ccrOl6mv.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj' '-c'
+ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/cc1 -quiet -v -iprefix /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/ /home/jaberan/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj -Wno-frame-address -version -o /tmp/ccGuxZqF.s
 GNU C17 (crosstool-NG esp-2020r3) version 8.4.0 (xtensa-esp32-elf)
 	compiled by GNU C version 4.9.2, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -72,14 +72,14 @@ GNU C17 (crosstool-NG esp-2020r3) version 8.4.0 (xtensa-esp32-elf)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 30a273f5c2e3bc492245d1974b5e7b3d
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj' '-c'
- /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj /tmp/ccrOl6mv.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj' '-c'
+ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj /tmp/ccGuxZqF.s
 COMPILER_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj' '-c'
-[2/2] Linking C executable cmTC_8c0b8
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj' '-c'
+[2/2] Linking C executable cmTC_657d9
 Using built-in specs.
-COLLECT_GCC=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc
+COLLECT_GCC=/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc
 COLLECT_LTO_WRAPPER=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper
 Target: xtensa-esp32-elf
 Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
@@ -87,9 +87,9 @@ Thread model: posix
 gcc version 8.4.0 (crosstool-NG esp-2020r3) 
 COMPILER_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_8c0b8'
- /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -plugin /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin.so -plugin-opt=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccybHgsW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_8c0b8 /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_8c0b8'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_657d9'
+ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -plugin /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin.so -plugin-opt=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmGTGmY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_657d9 /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_657d9'
 
 
 
@@ -101,26 +101,26 @@ Parsed C implicit include dir info from above output: rv=done
     add: [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include]
     add: [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include]
   end of search list found
-  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/include] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include]
-  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed]
-  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/sys-include]
-  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include]
-  implicit include dirs: [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/sys-include;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include]
+  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/include] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include]
+  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed]
+  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/sys-include]
+  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include]
+  implicit include dirs: [/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include;/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/sys-include;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/var/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_8c0b8 && [1/2] Building C object CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Run Build Command(s):/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_657d9 && [1/2] Building C object CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc]
+  ignore line: [COLLECT_GCC=/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc]
   ignore line: [Target: xtensa-esp32-elf]
   ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.4.0 (crosstool-NG esp-2020r3) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/cc1 -quiet -v -iprefix /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/ /var/home/jaberan/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj -Wno-frame-address -version -o /tmp/ccrOl6mv.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/cc1 -quiet -v -iprefix /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/ /home/jaberan/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlongcalls -auxbase-strip CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj -Wno-frame-address -version -o /tmp/ccGuxZqF.s]
   ignore line: [GNU C17 (crosstool-NG esp-2020r3) version 8.4.0 (xtensa-esp32-elf)]
   ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
   ignore line: []
@@ -141,14 +141,14 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 30a273f5c2e3bc492245d1974b5e7b3d]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj /tmp/ccrOl6mv.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj /tmp/ccGuxZqF.s]
   ignore line: [COMPILER_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj' '-c']
-  ignore line: [[2/2] Linking C executable cmTC_8c0b8]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [[2/2] Linking C executable cmTC_657d9]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc]
+  ignore line: [COLLECT_GCC=/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper]
   ignore line: [Target: xtensa-esp32-elf]
   ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
@@ -156,27 +156,27 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.4.0 (crosstool-NG esp-2020r3) ]
   ignore line: [COMPILER_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_8c0b8']
-  link line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -plugin /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin.so -plugin-opt=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccybHgsW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_8c0b8 /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_657d9']
+  link line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -plugin /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin.so -plugin-opt=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmGTGmY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_657d9 /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o]
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccybHgsW.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccmGTGmY.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8c0b8] ==> ignore
+    arg [cmTC_657d9] ==> ignore
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o] ==> ignore
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o] ==> ignore
     arg [-L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0]
     arg [-L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc] ==> dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc]
     arg [-L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_8c0b8.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_657d9.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
     arg [-lnosys] ==> lib [nosys]
@@ -184,34 +184,34 @@ Parsed C implicit link information from above output:
     arg [-lgcc] ==> lib [gcc]
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o] ==> ignore
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o] ==> ignore
-  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0]
-  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc]
-  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/lib]
+  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0]
+  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc]
+  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/lib]
   implicit libs: [gcc;c;nosys;c;gcc]
-  implicit dirs: [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/lib]
+  implicit dirs: [/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0;/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/lib]
   implicit fwks: []
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp
+Change Dir: /home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/var/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_ee43a && [1/2] Building CXX object CMakeFiles/cmTC_ee43a.dir/testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_ee43a
+Run Build Command(s):/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_22f31 && [1/2] Building CXX object CMakeFiles/cmTC_22f31.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_22f31
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp
+Change Dir: /home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/var/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_c6671 && [1/2] Building CXX object CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_7885e && [1/2] Building CXX object CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj
 Using built-in specs.
-COLLECT_GCC=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++
+COLLECT_GCC=/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++
 Target: xtensa-esp32-elf
 Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
 Thread model: posix
 gcc version 8.4.0 (crosstool-NG esp-2020r3) 
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
- /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/cc1plus -quiet -v -iprefix /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/ /var/home/jaberan/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlongcalls -auxbase-strip CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj -Wno-frame-address -version -o /tmp/ccmDPPzH.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/cc1plus -quiet -v -iprefix /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/ /home/jaberan/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlongcalls -auxbase-strip CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj -Wno-frame-address -version -o /tmp/cciSJjk3.s
 GNU C++14 (crosstool-NG esp-2020r3) version 8.4.0 (xtensa-esp32-elf)
 	compiled by GNU C version 4.9.2, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
 
@@ -238,14 +238,14 @@ GNU C++14 (crosstool-NG esp-2020r3) version 8.4.0 (xtensa-esp32-elf)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 8d3d7cf4a9615fb0943a530e8219815c
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
- /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccmDPPzH.s
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cciSJjk3.s
 COMPILER_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
-[2/2] Linking CXX executable cmTC_c6671
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+[2/2] Linking CXX executable cmTC_7885e
 Using built-in specs.
-COLLECT_GCC=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++
+COLLECT_GCC=/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++
 COLLECT_LTO_WRAPPER=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper
 Target: xtensa-esp32-elf
 Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
@@ -253,9 +253,9 @@ Thread model: posix
 gcc version 8.4.0 (crosstool-NG esp-2020r3) 
 COMPILER_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_c6671'
- /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -plugin /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin.so -plugin-opt=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdWi8J3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_c6671 /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_c6671'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_7885e'
+ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -plugin /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin.so -plugin-opt=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd8wLJj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_7885e /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_7885e'
 
 
 
@@ -270,29 +270,29 @@ Parsed CXX implicit include dir info from above output: rv=done
     add: [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include]
     add: [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include]
   end of search list found
-  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0]
-  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf]
-  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/backward] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/backward]
-  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/include] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include]
-  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed]
-  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/sys-include]
-  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include]
-  implicit include dirs: [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/backward;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/sys-include;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include]
+  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0]
+  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf]
+  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include/c++/8.4.0/backward] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/backward]
+  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/include] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include]
+  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed]
+  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/sys-include] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/sys-include]
+  collapse include dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/include] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include]
+  implicit include dirs: [/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/backward;/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include;/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/sys-include;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/var/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_c6671 && [1/2] Building CXX object CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Run Build Command(s):/home/jaberan/.platformio/packages/tool-ninja/ninja cmTC_7885e && [1/2] Building CXX object CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++]
+  ignore line: [COLLECT_GCC=/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++]
   ignore line: [Target: xtensa-esp32-elf]
   ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.4.0 (crosstool-NG esp-2020r3) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/cc1plus -quiet -v -iprefix /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/ /var/home/jaberan/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlongcalls -auxbase-strip CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj -Wno-frame-address -version -o /tmp/ccmDPPzH.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/cc1plus -quiet -v -iprefix /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/ /home/jaberan/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlongcalls -auxbase-strip CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj -Wno-frame-address -version -o /tmp/cciSJjk3.s]
   ignore line: [GNU C++14 (crosstool-NG esp-2020r3) version 8.4.0 (xtensa-esp32-elf)]
   ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
   ignore line: []
@@ -319,14 +319,14 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 8d3d7cf4a9615fb0943a530e8219815c]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccmDPPzH.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cciSJjk3.s]
   ignore line: [COMPILER_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
-  ignore line: [[2/2] Linking CXX executable cmTC_c6671]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [[2/2] Linking CXX executable cmTC_7885e]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++]
+  ignore line: [COLLECT_GCC=/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper]
   ignore line: [Target: xtensa-esp32-elf]
   ignore line: [Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-esp32-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp32-elf/xtensa-esp32-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2020r3' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
@@ -334,27 +334,27 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.4.0 (crosstool-NG esp-2020r3) ]
   ignore line: [COMPILER_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/bin/]
   ignore line: [LIBRARY_PATH=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/:/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_c6671']
-  link line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -plugin /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin.so -plugin-opt=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdWi8J3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_c6671 /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-v' '-o' 'cmTC_7885e']
+  link line: [ /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2 -plugin /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin.so -plugin-opt=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd8wLJj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_7885e /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0 -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc -L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o /var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o]
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../libexec/gcc/xtensa-esp32-elf/8.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccdWi8J3.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccd8wLJj.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c6671] ==> ignore
+    arg [cmTC_7885e] ==> ignore
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib/crt0.o] ==> ignore
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crti.o] ==> ignore
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtbegin.o] ==> ignore
     arg [-L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0]
     arg [-L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc] ==> dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc]
     arg [-L/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_c6671.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_7885e.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -364,11 +364,11 @@ Parsed CXX implicit link information from above output:
     arg [-lgcc] ==> lib [gcc]
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtend.o] ==> ignore
     arg [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/crtn.o] ==> ignore
-  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0]
-  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc]
-  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/lib]
+  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0]
+  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc]
+  collapse library dir [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/../lib/gcc/xtensa-esp32-elf/8.4.0/../../../../xtensa-esp32-elf/lib] ==> [/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/lib]
   implicit libs: [stdc++;m;gcc;c;nosys;c;gcc]
-  implicit dirs: [/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/lib]
+  implicit dirs: [/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0;/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/lib]
   implicit fwks: []
 
 

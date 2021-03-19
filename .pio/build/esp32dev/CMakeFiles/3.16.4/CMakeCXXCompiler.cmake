@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++")
+set(CMAKE_CXX_COMPILER "/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "8.4.0")
@@ -19,11 +19,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-ar")
-set(CMAKE_CXX_COMPILER_AR "/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc-ar")
-set(CMAKE_RANLIB "/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc-ranlib")
-set(CMAKE_LINKER "/var/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-ld")
+set(CMAKE_AR "/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-ar")
+set(CMAKE_CXX_COMPILER_AR "/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc-ar")
+set(CMAKE_RANLIB "/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-gcc-ranlib")
+set(CMAKE_LINKER "/home/jaberan/.platformio/packages/toolchain-xtensa32/bin/xtensa-esp32-elf-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -82,7 +82,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/backward;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/sys-include;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/xtensa-esp32-elf;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include/c++/8.4.0/backward;/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include;/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0/include-fixed;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/sys-include;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc;c;nosys;c;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc;/var/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc/xtensa-esp32-elf/8.4.0;/home/jaberan/.platformio/packages/toolchain-xtensa32/lib/gcc;/home/jaberan/.platformio/packages/toolchain-xtensa32/xtensa-esp32-elf/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

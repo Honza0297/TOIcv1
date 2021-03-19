@@ -1,4 +1,4 @@
-# Install script for directory: /var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/components/esp32-ds18b20
+# Install script for directory: /home/jaberan/Documents/PlatformIO/Projects/ToiPokus/components/esp32-ds18b20
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

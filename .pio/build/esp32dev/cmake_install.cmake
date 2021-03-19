@@ -1,4 +1,4 @@
-# Install script for directory: /var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus
+# Install script for directory: /home/jaberan/Documents/PlatformIO/Projects/ToiPokus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/esp-idf/cmake_install.cmake")
+  include("/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/var/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jaberan/Documents/PlatformIO/Projects/ToiPokus/.pio/build/esp32dev/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
