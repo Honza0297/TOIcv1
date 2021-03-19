@@ -9,6 +9,8 @@
 
 void onewire_task(void *pvParameter);
 
+void wifi_init_sta(void);
+
 #define GPIO_LED_RED  2
 #define GPIO_LED1     13
 #define GPIO_LED2     12
@@ -51,6 +53,7 @@ void blink_task(void *pvParameter) {
 }
 void app_main() {
     ESP_ERROR_CHECK(nvs_flash_init());
+    ESP_ERROR_CHECK(wifi_init_sta());
     xTaskCreate(&hello_task, "hello_task", 2048, NULL, 5, NULL);
     xTaskCreate(&blink_task, "blink_task", 512, NULL, 5, NULL);
     xTaskCreate(&onewire_task, "onewire_task", 2048, NULL, 5, NULL);
